@@ -1,10 +1,7 @@
-!pip install pypdf langchain torch accelerate bitsandbytes transformers sentence_transformers faiss_gpu -qq -U
-!pip install huggingface_hub -qq -U
-!pip install ctransformers -qq -U
-
 from huggingface_hub import login
 
 login("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")
+
 import streamlit as st
 import langchain
 from langchain import PromptTemplate
