@@ -9,3 +9,4 @@ faiss_gpu
 huggingface_hub
 ctransformers
 login
+streamlit
