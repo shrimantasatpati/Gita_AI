@@ -4,7 +4,8 @@ torch
 accelerate
 transformers
 sentence_transformers
-faiss
+faiss_gpu
 huggingface_hub
 bitsandbytes
 ctransformers
+pip
