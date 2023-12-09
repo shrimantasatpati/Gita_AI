@@ -8,6 +8,7 @@ from langchain.vectorstores import FAISS
 import textwrap
 import warnings
 from langchain.llms import HuggingFacePipeline
+import os
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
 warnings.filterwarnings("ignore")
