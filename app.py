@@ -1,7 +1,3 @@
-# from huggingface_hub import login
-
-# login("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")
-
 import streamlit as st
 import langchain
 from langchain import PromptTemplate
