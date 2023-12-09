@@ -1,3 +1,4 @@
+import huggingface_hub
 from huggingface_hub import login
 
 login("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")
