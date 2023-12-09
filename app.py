@@ -1,6 +1,6 @@
-from huggingface_hub import login
+# from huggingface_hub import login
 
-login("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")
+# login("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")
 
 import streamlit as st
 import langchain
@@ -11,6 +11,8 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 import textwrap
 import warnings
+from langchain.llms import HuggingFacePipeline
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
 warnings.filterwarnings("ignore")
 
