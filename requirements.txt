@@ -8,5 +8,4 @@ sentence_transformers
 faiss_gpu
 huggingface_hub
 ctransformers
-login
 streamlit
